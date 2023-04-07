@@ -28,6 +28,9 @@ public class Dropdown {
 		List<WebElement> list=s1.getOptions();
 		System.out.println(list);
 		s1.selectByValue("Mr.");
+		driver.get("https://demosite.executeautomation.com/");				
+		driver.findElement(By.name("UserName")).sendKeys("execution");
+		driver.findElement(By.name("Password")).sendKeys("admin");
 		driver.close();
 		
 
