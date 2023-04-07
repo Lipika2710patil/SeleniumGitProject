@@ -28,6 +28,7 @@ public class Dropdown {
 		List<WebElement> list=s1.getOptions();
 		System.out.println(list);
 		s1.selectByValue("Mr.");
+		driver.close();
 		
 
 	}
